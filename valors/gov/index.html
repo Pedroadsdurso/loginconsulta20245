@@ -145,7 +145,16 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 				</div>
 				<div class="elementor-element elementor-element-ebf4d68 elementor-widget elementor-widget-html" data-id="ebf4d68" data-element_type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
-			<iframe src="https://chat.zippybot.com.br/my-typebot-p6erevp" width="100%" height="600" frameborder="0" allowfullscreen=""></iframe>
+			<script type="module">
+  import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.2.46/dist/web.js';
+
+  Typebot.initStandard({
+    typebot: "funil-gab-consulta-dxtiz2d",
+    apiHost: "https://chat.zippybot.com.br",
+  });
+</script>
+
+<typebot-standard style="width: 100%; height: 600px; "></typebot-standard>
 		</div>
 				</div>
 					</div>
